@@ -1,0 +1,14 @@
+#include<cmath>
+#include<iostream>
+using namespace std;
+int main(){
+    int a,c;
+    cin>>a>>c;
+    int b;
+    int q=0;
+    for(int i=1;i<=a;i++){
+        cin>>b;
+        if(b==c)q++;
+    }
+    cout<<q<<endl;
+}
